@@ -1,2 +1,1 @@
-**Site** \n
-#speedrun.com#
+**Site** speedrun.com
