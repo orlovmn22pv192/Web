@@ -1,5 +1,24 @@
 header {
   background-color: #199C77;
+  color: #fff;
+  display: flex;
+}
+header .logo img{
+  width: 200px;
+  padding: 10px 0
+}
+.navbar {
+  display: flex;
+  list-style: none;
+}
+.navbar-item {
+  text-align: center;
+}
+.navbar-item a{
+  color: #fff !important;
+  padding-left: .75rem !important;
+  padding-right: .75rem !important;
+  text-decoration: none;
 }
 main {
   background-color: #111618;
