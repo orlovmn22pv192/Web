@@ -22,7 +22,7 @@
             <a class="nav-link" href="./about.html">About</a>
           </li>
           <li class="navbar-item">
-            <a class="nav-link" href=./login.html>Log in</a>
+            <a class="nav-link" href=#>Log in</a>
           </li>
           <li class="navbar-item">
             <a class="nav-link" href=./signup.html>Sign up</a>
@@ -30,34 +30,40 @@
         </ul>
       </header>
       <main>
-        <div class="container">
+        <div class="container-login">
           <div class="widget-container">
             <div class="widget-header">
-              <div class="widget-title">Latest Runs</div>
+              <div class="widget-title">Log in to Speedrun</div>
             </div>
             <div class="widget-body">
-              <div class="card">
-                <a href="#">Run 1</a>
+              <div class="form-labeled-input">
+                <label class="form-label-simple" for="name">Username </label>
+                <div class="form-labeled-content">
+                  <input class="form-control" type="text" name="name" id="name" value="">
+                </div>
               </div>
-              <div class="card">
-                <a href="#">Run 2</a>
+              <div class="form-labeled-input">
+                <label class="form-label-simple" for="password">Enter password </label>
+                <div class="form-labeled-content">
+                  <input class="form-control" type="password" name="password" id="password" value="">
+                </div>
               </div>
-              <div class="card">
-                <a href="#">Run 3</a>
-              </div>
-              <div class="card">
-                <a href="#">Run 4</a>
-              </div>
-              <div class="card">
-                <a href="#">Run 5</a>
-              </div>
-              <div class="card">
-                <a href="#">Run 6</a>
+              <div class="form-labeled-input">
+                <div class="form-labeled-content">
+                  <div class="flex flex-auto items-center justify-between">
+                    <div class="flex flex-auto items-center space-x-3">
+                      <button type="submit" class="btn btn-default" disabled="">Log in</button>
+                      <a href="#" class="text-sm">Forgot password?</a>
+                    </div>
+                    <a href="./signup.html" class="text-sm">Need to sign up?</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </main>
+
       <footer>
         <div class="info">
           +7(5624)12-23-45
