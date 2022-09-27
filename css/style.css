@@ -16,6 +16,9 @@ header .logo img{
   width: 200px;
   padding: 10px 0
 }
+header .logo{
+  margin-left: 40px;
+}
 .navbar {
   display: flex;
   list-style: none;

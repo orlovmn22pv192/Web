@@ -1,0 +1,112 @@
+html, body {
+    font-family: sans-serif;
+    background-color: #111618;
+}
+.wrapper {
+    min-height: 100vh;
+}
+header {
+    background-color: #199C77;
+    color: #fff;
+}
+
+nav.navbar {
+    background-color: #199C77;
+    padding: 0;
+    height: 50px;
+}
+
+nav .nav-link {
+    color: #fff;
+}
+
+header .logo img{
+    width: 200px;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main .widget-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(37, 47, 55);
+    border-radius: 2px;
+    border-top: 3px solid #199C77;
+    box-shadow: 0 5px 10px 2px rgba(29,41,44,.23);
+    font-size: 1rem;
+    height: 100%;
+    width: fit-content;
+}
+  
+main .widget-header{
+    background-color: hsla(0,0%,100%,.075);
+    padding: 14px 16px;
+}
+  
+main .widget-title {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .025em;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main .card{
+    background-color: rgb(37, 47, 55);
+    margin-top: 1rem;
+    width: 100%;
+    border-color: #fff;
+    border-width: 2px;
+}
+
+main .card :hover{
+    background-color: rgb(88, 89, 90);
+}
+
+main .card-body{
+    color: #fff;
+}
+
+main .widget-body{
+    width: fit-content;
+}
+
+main .widget-body .container{
+    max-width: 800px;
+}
+
+main .game-link{
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(37, 47, 55);
+    border-top: 3px solid #199C77;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    top: auto;
+}
+
+footer .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    color: #fff;
+}
+
+footer .copyright {
+    background-color: #212a31;
+    color: #fff;
+}
