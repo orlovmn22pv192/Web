@@ -29,7 +29,7 @@ header nav {
 }
 
 main {
-
+  padding: 15px;
 }
 
 main .widget-container{
@@ -60,24 +60,36 @@ main .widget-title {
     text-transform: uppercase;
 }
 
-main .card{
-    background-color: rgb(37, 47, 55);
-    margin-top: 1rem;
-    width: 100%;
-    border-color: #fff;
-    border-width: 2px;
-}
-
-main .card :hover{
-    background-color: rgb(88, 89, 90);
-}
-
-main .card-body{
+main .runs-list{
     color: #fff;
+    margin: auto;
 }
 
+main .runs-list .run{
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: max-content;
+    text-align: center;
+    width: auto;
+    padding-bottom: 10px;
+}
+
+.run .btn{
+    background-color: #199C77;
+}
+
+.run img{
+    width: 100%;
+}
+
+main .run .description{
+    text-align: center;
+    padding-top: 10px;
+}
 main .widget-body{
     width: fit-content;
+    padding-top: 1rem;
+    color: #fff;
 }
 
 main .widget-body .container{
@@ -89,11 +101,14 @@ main .game-link{
 }
 
 main .poster{
-  width: 100px;
+  width: 120px;
 }
 
 main .content{
-  padding: 60px 70px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 footer{
@@ -116,4 +131,73 @@ footer .info{
 footer .copyright {
     background-color: #212a31;
     color: #fff;
+}
+
+main .form-label-simple {
+    font-size: 14px;
+    letter-spacing: .4px;
+    line-height: normal;
+}
+
+main .form-labeled-content {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    box-sizing: border-box;
+}
+
+main .form-labeled-input{
+  padding-bottom: 1em;
+}
+
+
+main .form-control {
+    background-color: #1e262c;
+    border-color: hsla(0,0%,100%,.13);
+    color: #fff;
+    width: 100%;
+    height: 30px;
+    border-radius: .25rem;
+}
+
+main .container-login{
+  color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container-login .justify-between {
+    justify-content: space-between;
+}
+
+.container-login .items-center {
+    align-items: center;
+}
+
+.container-login .flex-auto {
+    flex: 1 1 auto;
+}
+
+.container-login .flex {
+    display: flex;
+}
+
+
+
+.container-login .text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.container-login .widget-container a {
+    text-decoration: none;
+    color: #199673;
+    margin: 0px 10px;
+}
+
+main .container-login .widget-body{
+    padding: 16px;
 }
