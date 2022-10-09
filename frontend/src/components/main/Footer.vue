@@ -1,0 +1,39 @@
+<template>
+    <footer>
+        <div class="info">
+          +7(5624)12-23-45
+        </div>
+        <div class="copyright">
+          &copy; BSTU, 2022
+        </div>
+    </footer>
+</template>
+
+<script>
+
+</script>
+
+<style>
+footer{
+    background-color: rgb(37, 47, 55);
+    border-top: 3px solid #199C77;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    top: auto;
+}
+
+footer .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    color: #fff;
+}
+
+footer .copyright {
+    background-color: #212a31;
+    color: #fff;
+}
+
+</style>
