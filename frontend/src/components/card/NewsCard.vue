@@ -1,6 +1,6 @@
 <template>
     <div class="news">
-        <a href="/news_page">
+        <a href="/news">
             <img  src="https://connect.elo.io/blob/B8CfBcCUanqXKr-VhVKbh6bqKV-YBtxq5t9ShX9ZhnbXi1pshXcrhNHqhNhGkEWqiZ?q=70&w=400" />
             <div class="description">
                 <div class="date">Sep. 30</div>

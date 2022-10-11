@@ -1,6 +1,6 @@
 <template>
     <div class="rounded game">
-        <a href="/game_page">
+        <a href="/game">
             <img class="rounded poster" src="https://www.speedrun.com/gameasset/j1npme6p/cover?v=9d1e2ca" />
             <div class="title">Minecraft</div>
         </a>
@@ -18,6 +18,7 @@
         background-color: #111618;
         max-width: 300px;
         margin: 0 auto;
+        text-align: center;
     }
     .game a{
         text-decoration: none;

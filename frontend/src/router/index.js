@@ -3,9 +3,9 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LoginView from "@/views/LoginView";
 import NewsView from "@/views/NewsView";
-import NewsPageView from "@/views/NewsPageView";
+import ListOfNews from "@/views/ListOfNewsView";
 import GamesView from "@/views/GamesView";
-import GamePageView from "@/views/GamePageView";
+import GameView from "@/views/GameView";
 
 Vue.use(VueRouter)
 
@@ -17,7 +17,7 @@ const routes = [
   },
   {
     path: '/about',
-    name: 'about',
+    name: 'About',
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
   {
@@ -31,9 +31,9 @@ const routes = [
     component: NewsView
   },
   {
-    path: '/news_page',
-    name: 'NewsPage',
-    component: NewsPageView
+    path: '/list_of_news',
+    name: 'ListOfNews',
+    component: ListOfNews
   },
   {
     path: '/games',
@@ -41,9 +41,9 @@ const routes = [
     component: GamesView
   },
   {
-    path: '/game_page',
-    name: 'GamePage',
-    component: GamePageView
+    path: '/game',
+    name: 'Game',
+    component: GameView
   },
 
 ]

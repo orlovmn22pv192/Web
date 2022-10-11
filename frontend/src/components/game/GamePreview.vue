@@ -1,5 +1,4 @@
 <template>
-    <div class="content">
         <div class="game-content">
             <div class="widget-game">
                 <img class="poster" src="https://www.speedrun.com/gameasset/j1npme6p/cover?v=9d1e2ca" /> 
@@ -13,11 +12,14 @@
                 
             </div>
         </div>
-        <h1>Leaderboard</h1>
-    </div>
-    
 
 </template>
+
+<script>
+export default {
+        name: "GamePreview"
+    }
+</script>
 
 <style>
     .game-content{

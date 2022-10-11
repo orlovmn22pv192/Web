@@ -13,16 +13,16 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" :to="{name: 'Games'}" href="/games">Games</a>
+                                <router-link class="nav-link" :to="{name: 'Games'}">Games</router-link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" :to="{name: 'News'}" href="/news">News</a>
+                                <router-link class="nav-link" :to="{name: 'ListOfNews'}">News</router-link>
                             </li>
                             <li class="navbar-item">
-                                <a class="nav-link" :to="{name: 'About'}" href="/about">About</a>
+                                <router-link class="nav-link" :to="{name: 'About'}">About</router-link>
                             </li>
                             <li class="navbar-item" v-if="!isAuth">
-                                <a class="nav-link" :to="{name: 'Login'}" href="/login">Log in</a>
+                                <router-link class="nav-link" :to="{name: 'Login'}">Log in</router-link>
                             </li>
                             <!-- <li class="navbar-item">
                                 <a class="nav-link" :to="{name: 'SignUp'}">Sign up</a>
